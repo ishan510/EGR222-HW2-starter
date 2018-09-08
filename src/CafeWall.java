@@ -11,6 +11,7 @@ import java.awt.*;
 public class CafeWall {
 
     public static void main(String[] args) {
-        //Remove this comment and implement your code
+        //Remove this comment and below line and implement your code
+        System.out.println("Import Success! Now delete this code and implement your own!");
     }
 }
