@@ -2,7 +2,7 @@
  * Created by YOUR_NAME on DATE
  * You shouldn't use any if-else statements
  * Put comments in your code
- * Follow freedom of information and gilligans island rule
+ * Follow freedom of information and gilligans island rule specified in the Syllabus
  * Discussed with: XXX
  **/
 
