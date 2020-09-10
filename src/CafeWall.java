@@ -11,14 +11,18 @@ import java.io.IOException;
 
 public class CafeWall {
 
-    private static final Integer MORTAR = 2; //Your code should work for both cases when MORTAR is 1 or 2
+    //Do not remove below MORTAR code
+    //You can change the value to either 1 or 2 (Your code should work for both cases)
+    private static final Integer MORTAR = 2;
 
     public static void main(String[] args) throws IOException {
-        DrawingPanel panel = initializePanel(100, 100, Color.ORANGE); //Change the parameters according to spec!
+        //Initialize pane (Change the parameters in below line according to spec!)
+        DrawingPanel panel = initializePanel(100, 100, Color.ORANGE);
         //Write your code here
 
 
 
+        //Save the drawing into png file
         panel.save("output" + MORTAR + ".png"); //Do not remove (this code must be the last statement in main)
     }
 
