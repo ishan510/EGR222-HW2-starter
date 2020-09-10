@@ -7,11 +7,18 @@
  **/
 
 import java.awt.*;
+import java.io.IOException;
 
 public class CafeWall {
 
-    public static void main(String[] args) {
-        //Remove this comment and below line and implement your code
-        System.out.println("Import Success! Now delete this code and implement your own!");
+    private static final Integer MORTAR = 2; //Your code should work for both cases when MORTAR is 1 or 2
+
+    public static void main(String[] args) throws IOException {
+        DrawingPanel panel = new DrawingPanel(650, 420); //Change the pixel dimensions according to spec
+        //Write your code here
+
+
+
+        panel.save("output" + MORTAR + ".png"); //Do not remove (this code must be the last statement in main)
     }
 }
